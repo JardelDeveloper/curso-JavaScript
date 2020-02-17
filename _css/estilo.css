@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* Formatação do body */
+
+body {
+    background-color: #dddddd;
+}
+
+h3 {
+    text-align: center;
+}

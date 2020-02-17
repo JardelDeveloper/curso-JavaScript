@@ -1,0 +1,39 @@
+<!-- By: Jardel -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>somatorio2</title>
+    <meta charset="UTF-8"/>
+</head>
+
+<body>
+
+<form name="MeuFormulario" action="" method="post">
+    Entre com o valor 1: <input type="text" name="f_n1" required/> <p></p>
+    Entre com o valor 2: <input type="text" name="f_n2" required/> <p></p>
+    <input type="button" name="btn_somar" value="Somar" onclick="soma()"/>
+    <input type="reset" name="btn_apagar" value="Apagar"/>
+</form>
+
+<script language="Javascript">
+
+    var first_num;
+    var second_num;
+    var soma;
+
+    function soma() {
+
+    first_num = parseInt(document.MeuFormulario.f_n1.value);
+    second_num = parseInt(document.MeuFormulario.f_n2.value);
+
+    soma = first_num + second_num;
+    
+    document.write ('O resultado da soma = ' + soma);
+
+    }
+
+</script>
+</body>
+
+</html>
